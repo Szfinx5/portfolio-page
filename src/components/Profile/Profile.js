@@ -6,6 +6,8 @@ import "./Profile.css";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import cvData from "../../data/cvData";
 import { TimelineContent, TimelineItem } from "@material-ui/lab";
+import CvButton from "../Button/CvButton";
+import GetAppIcon from "@mui/icons-material/GetApp";
 
 const BasicTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -61,8 +63,9 @@ const Profile = () => {
             link={cvData.social.twitter.link}
           />
         </BasicTimeline>
-        <br />
-        <button>Button</button>
+        <div className={"button-container"}>
+          <CvButton text={"Download CV"} icon={<GetAppIcon />}></CvButton>
+        </div>
       </div>
     </div>
   );

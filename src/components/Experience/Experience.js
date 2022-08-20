@@ -1,5 +1,5 @@
-const Experience = () => {
-  return <h3>Experience</h3>;
-};
+import React from "react";
 
-export default Experience;
+export default function Experience() {
+  return <div>Experience</div>;
+}

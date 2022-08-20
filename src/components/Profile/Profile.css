@@ -26,11 +26,11 @@
     margin-top: -10px;
     /* -webkit-clip-path: polygon (0 9%, 100% 0, 100% 94%, 0% 100%);
     clip-path: polygon(0 9%,100% 0, 100% 94%, 0% 100%); */
-    
+    text-align: center;
 }
 
 .profile-image img{
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
 }
 
@@ -61,4 +61,11 @@
     font-size: 14px ;
     color: #000;
     font-weight: 400;
+}
+
+.profile .button-container{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 10px;
 }
