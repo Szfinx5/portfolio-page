@@ -21,12 +21,14 @@ function App() {
         <Grid item xs>
           <BrowserRouter>
             <Header />
-            <Routes>
-              <Route path="/" element={<About />} />
-              <Route path="/education" element={<Education />} />
-              <Route path="/experience" element={<Experience />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-            </Routes>
+            <div className="main-content container-shadow">
+              <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="/education" element={<Education />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+              </Routes>
+            </div>
           </BrowserRouter>
           <Footer />
         </Grid>

@@ -3,6 +3,7 @@
     border-radius: 5px;
     width: 100%;
     display: inline-block;
+    /* min-height: 600px !important; */
 }
 
 .profile-name{
