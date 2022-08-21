@@ -3,7 +3,7 @@
     border-radius: 5px;
     width: 100%;
     display: inline-block;
-    /* min-height: 600px !important; */
+    min-height: 700px !important;
 }
 
 .profile-name{
@@ -48,13 +48,13 @@
 
 .timelineItem-text{
     font-size: 14px !important;
-    color: #999 !important;
+    color: #777 !important;
     font-weight: 400 !important;
     text-decoration: none !important;
 }
 
 .timelineItem-text > a{
-    color: #999 !important;
+    color: #777 !important;
     
 }
 
@@ -68,5 +68,5 @@
 width: 100%;
 display: flex;
 justify-content: center;
-margin-top: 10px;
+margin-top: 40px;
 }

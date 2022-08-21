@@ -22,7 +22,24 @@ const Experience = () => {
       <Grid container className="section padding-bottom-45"></Grid>
 
       {/* Interests */}
-      <Grid container className="section padding-bottom-45"></Grid>
+      <Grid container className="section padding-bottom-45 top-60">
+        <Grid item className="title-styling">
+          <span></span>
+          <h6 className="title-styling-text">Interests</h6>
+        </Grid>
+        <Grid item xs={12}>
+          {cvData.interests.map((interest) => (
+            <div>
+              <Typography className="interest-name top-30">
+                {interest.name}
+              </Typography>
+              <Typography className="interest-description">
+                {interest.description}
+              </Typography>
+            </div>
+          ))}
+        </Grid>
+      </Grid>
     </div>
   );
 };

@@ -75,10 +75,6 @@ const Education = () => {
               </BasicTimeline>
             </Grid>
           </Grid>
-
-          {/* <Typography variant="body2" className="about-me-text">
-            {cvData.about}
-          </Typography> */}
         </Grid>
       </Grid>
 

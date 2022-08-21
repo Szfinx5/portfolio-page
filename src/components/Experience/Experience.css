@@ -12,4 +12,6 @@
     font-size: small !important;
     /* margin-top: 6px !important; */
     margin-bottom: 10px !important;
+    line-height: 1.6 !important;
+    white-space: pre-line;
 }

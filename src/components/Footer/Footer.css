@@ -17,6 +17,22 @@ text-align: end;
 color: #aaa;
 }
 
+.footer-left{
+    font-size: small;
+    text-align:start;
+    color: #aaa;
+    }
+
+.footer-left img{
+   width: 75px;
+   margin-right: 15px;
+}
+
+.ccna{
+    height: 65px;
+    width: auto !important;
+}
+
 .footer-copyright > a{
     color: var(--main-color);
 }
