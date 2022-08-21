@@ -62,6 +62,11 @@ const Profile = () => {
             text={cvData.social.twitter.text}
             link={cvData.social.twitter.link}
           />
+          <BasicTimelineItem
+            title="Skype"
+            text={cvData.social.twitter.text}
+            link={cvData.social.twitter.link}
+          />
         </BasicTimeline>
         <div className={"button-container"}>
           <CvButton text={"Download CV"} icon={<GetAppIcon />}></CvButton>

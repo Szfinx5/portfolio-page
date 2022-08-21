@@ -48,13 +48,13 @@
 
 .timelineItem-text{
     font-size: 14px !important;
-    color: #aaa !important;
+    color: #999 !important;
     font-weight: 400 !important;
     text-decoration: none !important;
 }
 
 .timelineItem-text > a{
-    color: #aaa !important;
+    color: #999 !important;
     
 }
 
