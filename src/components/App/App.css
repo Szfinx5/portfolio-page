@@ -6,6 +6,22 @@
   margin-top: 60px !important;
 }
 
+.top-30 {
+  margin-top: 30px !important;
+}
+
+.padding-30{
+  padding: 30px !important;
+}
+
+.padding-bottom-45{
+  padding-bottom: 45 !important;
+}
+
+.margin-bottom-30{
+  margin-bottom: 30px !important;
+}
+
 @media (max-width:980px) {
   .top-60 {
     margin-top: 30px !important;
@@ -20,7 +36,31 @@
 
 .main-content{
   background-color: white;
- min-height: 50vh; 
+ min-height: 420px; 
  border-radius: 5px;
  margin-bottom: 30px;
+ padding: 20px;
+}
+
+.title-styling{
+  position: relative;
+  display: inline-block;
+  padding: 0px 3px;
+}
+
+.title-styling-text{
+  font-size:  18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0px;
+}
+
+.title-styling span{
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
 }

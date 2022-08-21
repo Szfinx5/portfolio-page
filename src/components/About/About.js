@@ -1,17 +1,28 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import cvData from "../../data/cvData";
 import "./About.css";
 
 const Experience = () => {
   return (
     <div>
       {/* About me */}
-      <Grid container className=""></Grid>
+      <Grid container className="section padding-bottom-45">
+        <Grid item className="title-styling margin-bottom-30">
+          <span></span>
+          <h6 className="title-styling-text">About me</h6>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="body2" className="about-me-text">
+            {cvData.about}
+          </Typography>
+        </Grid>
+      </Grid>
 
       {/* Skills */}
-      <Grid container className=""></Grid>
+      <Grid container className="section padding-bottom-45"></Grid>
 
       {/* Interests */}
-      <Grid container className=""></Grid>
+      <Grid container className="section padding-bottom-45"></Grid>
     </div>
   );
 };
