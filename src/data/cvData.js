@@ -73,36 +73,36 @@ const cvData = {
       name: "School of Code, Remote",
       date: "2022",
       title: "Full Stack Web Developer",
-      description: `
-        - Learning agile and test-driven web development practices and languages.
-        - Breaking down technical and logical problems and solving them.
-        - Developing solutions in teams or pair-programming environments mainly in JavaScript and SQL, using Node.JS runtime environment and React, Express libraries.
-        - Learning Cloud computing practices mainly on AWS and deploying solutions.
-        - Creating and deploying Serverless backends using Lambda functions, API Gateways, and DynamoDB.
-        `,
+      description: [
+        "Learning agile and test-driven web development practices and languages",
+        "Breaking down technical and logical problems and solving them",
+        "Developing solutions in teams or pair-programming environments mainly in JavaScript and SQL, using Node.JS runtime environment and React, Express libraries",
+        "Learning Cloud computing practices mainly on AWS and deploying solutions",
+        "Creating and deploying Serverless backends using Lambda functions, API Gateways, and DynamoDB",
+      ],
     },
     {
       name: "Initsys Ltd, Derby",
       date: "2017 - 2022",
       title: "Customer Experience Manager",
-      description: `
-      - Collate and analyse customer data, queries, and IT ticket-related issues and provide solutions to the problems.
-      - Manage customers databases, provide tools and MySQL queries for reporting.
-      - First point of contact when it comes to testing Initsys software and providing feedback to the developers together with recommendations.
-      - Updating customers' IT systems on-site or remotely.
-      - Deliver internal and external training for new and existing FTSE100 and SME customers either face to face or online.
-      `,
+      description: [
+        "Collate and analyse customer data, queries, and IT ticket-related issues and provide solutions to the problems",
+        "Manage customers databases, provide tools and MySQL queries for reporting",
+        "First point of contact when it comes to testing Initsys software and providing feedback to the developers together with recommendations",
+        "Updating customers' IT systems on-site or remotely",
+        "Deliver internal and external training for new and existing FTSE100 and SME customers either face to face or online",
+      ],
     },
     {
       name: "Royal Bank of Scotland, Kegworth",
       date: "2015 - 2017",
       title: "IT service Desk Analyst",
-      description: `
-      - Continuously delivering great customer service in line with the bank People Standard.
-      - Efficiently providing remote support on Windows operating system and virtualised environments to achieve the required First Point of Contact resolution SLA.
-      - Answering colleague calls/emails, logging incidents appropriately, and capturing accurate information.
-      - Effectively managing time to achieve agreed SLAs.
-      `,
+      description: [
+        "Continuously delivering great customer service in line with the bank People Standard",
+        "Efficiently providing remote support on Windows operating system and virtualised environments to achieve the required First Point of Contact resolution SLA",
+        "Answering colleague calls/emails, logging incidents appropriately, and capturing accurate information",
+        "Effectively managing time to achieve agreed SLAs",
+      ],
     },
   ],
 
@@ -121,6 +121,28 @@ const cvData = {
       name: "Responsive Web Design",
       date: "2022 - 2025",
       description: "freeCodeCamp",
+    },
+  ],
+
+  skills: [
+    {
+      title: "Front-end",
+      description: ["React", "JavaScript"],
+    },
+
+    {
+      title: "Back-end",
+      description: ["Node.js", "Express.js"],
+    },
+
+    {
+      title: "Databases",
+      description: ["MySQL", "MariaDB", "PostgreSQL"],
+    },
+
+    {
+      title: "Serverless",
+      description: ["AWS Lambda", "API Gateway", "DynamoDB"],
     },
   ],
 };

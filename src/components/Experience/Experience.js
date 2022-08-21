@@ -42,12 +42,15 @@ export default function Experience() {
                     <Typography variant="caption" className="timeline-date">
                       {job.date}
                     </Typography>
-                    <Typography
-                      variant="body2"
-                      className="timeline-description"
-                    >
-                      {job.description}
-                    </Typography>
+
+                    {job.description.map((e) => (
+                      <Typography
+                        variant="body2"
+                        className="timeline-description"
+                      >
+                        - {e}
+                      </Typography>
+                    ))}
                   </TimelineContent>
                 </TimelineItem>
               ))}
