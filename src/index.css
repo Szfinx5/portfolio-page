@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafafa;
   overflow-x: hidden;
-  background: url('../img/pattern-bg.png');
+  background: url('./img/pattern-bg.png');
 }
 
 code {
