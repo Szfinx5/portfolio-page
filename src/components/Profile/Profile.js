@@ -6,7 +6,7 @@ import "./Profile.css";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import data from "../../data/data";
 import { TimelineContent, TimelineItem } from "@mui/lab";
-import Button from "../Button/Button";
+import CustomButton from "../Button/Button";
 import GetAppIcon from "@mui/icons-material/GetApp";
 
 const BasicTimelineItem = ({ title, text, link }) => (
@@ -69,7 +69,10 @@ const Profile = () => {
           /> */}
         </BasicTimeline>
         <div className={"button-container"}>
-          <Button text={"Download CV"} icon={<GetAppIcon />}></Button>
+          <CustomButton
+            text={"Download CV"}
+            icon={<GetAppIcon />}
+          ></CustomButton>
         </div>
       </div>
     </div>
