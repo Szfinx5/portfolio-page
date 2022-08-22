@@ -132,7 +132,7 @@ const cvData = {
 
     {
       title: "Back-end",
-      description: ["Node.js", "Express.js"],
+      description: ["Node.js", "Express.js", "Jest"],
     },
 
     {
