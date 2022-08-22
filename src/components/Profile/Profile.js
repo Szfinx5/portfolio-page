@@ -64,8 +64,8 @@ const Profile = () => {
           />
           {/* <BasicTimelineItem
             title="Skype"
-            text={cvData.social.skype.text}
-            link={cvData.social.skype.link}
+            text={data.social.skype.text}
+            link={data.social.skype.link}
           /> */}
         </BasicTimeline>
         <div className={"button-container"}>

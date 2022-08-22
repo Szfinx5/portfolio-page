@@ -1,0 +1,32 @@
+/* .grey-background{
+background-color: #fafafa;
+} */
+
+.skills{
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 48px 0px rgba(4,6,4,0.08) !important;
+    min-height: 186px;
+    height: 100%;
+    }
+    
+    .skills-title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    }
+    
+    .skills-description{
+    display: flex;
+    align-items: center;
+    color: #777 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    }
+    
+    .skills-timeline-dot{
+    color: black !important;
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+    }
