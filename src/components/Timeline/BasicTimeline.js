@@ -6,7 +6,6 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import "./BasicTimeline.css";
 import { Typography } from "@mui/material";
-import WorkIcon from "@mui/icons-material/Work";
 
 export default function BasicTimeline({ title, icon, children }) {
   return (

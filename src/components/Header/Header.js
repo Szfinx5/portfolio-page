@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import { HomeRounded } from "@material-ui/icons";
 import cvData from "../../data/cvData";
@@ -37,13 +37,17 @@ export default function Header(props) {
           </Nav.Link>
         </Nav>
         <div className="header-right">
-          <a href={cvData.social.github.link} target="_blank">
+          <a href={cvData.social.github.link} target="_blank" rel="noreferrer">
             {cvData.social.github.icon}
           </a>
-          <a href={cvData.social.linkedin.link} target="_blank">
+          <a
+            href={cvData.social.linkedin.link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {cvData.social.linkedin.icon}
           </a>
-          <a href={cvData.social.twitter.link} target="_blank">
+          <a href={cvData.social.twitter.link} target="_blank" rel="noreferrer">
             {cvData.social.twitter.icon}
           </a>
         </div>

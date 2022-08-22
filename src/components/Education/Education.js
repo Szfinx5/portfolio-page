@@ -3,14 +3,12 @@ import cvData from "../../data/cvData";
 import "./Education.css";
 import BasicTimeline, {
   BasicTimelineSeparator,
-  BasicTimelineItem,
 } from "../Timeline/BasicTimeline";
 import SchoolIcon from "@mui/icons-material/School";
 import { TimelineItem } from "@material-ui/lab";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
+
 import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
+
 import "./Education.css";
 import ApprovalIcon from "@mui/icons-material/Approval";
 
