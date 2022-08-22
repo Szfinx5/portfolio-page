@@ -1,5 +1,6 @@
 :root{
-  --main-color: #ffc500
+  --main-color: #ffc500;
+  --font-color: #111;
 }
 
 .top-60 {
@@ -8,6 +9,10 @@
 
 .top-30 {
   margin-top: 30px !important;
+}
+
+.top-20 {
+  margin-top: 20px !important;
 }
 
 .padding-30{

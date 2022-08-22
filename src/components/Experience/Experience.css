@@ -1,0 +1,15 @@
+.timeline-name{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.timeline-date{
+    color:var(--font-color)
+}
+
+.timeline-description{
+    color: #777;
+    font-size: small !important;
+    /* margin-top: 6px !important; */
+    margin-bottom: 10px !important;
+}
