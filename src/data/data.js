@@ -1,6 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 
 const data = {
   name: "Gabor Havasi",
@@ -142,6 +143,77 @@ const data = {
     {
       title: "Serverless",
       description: ["AWS Lambda", "API Gateway", "DynamoDB"],
+    },
+  ],
+
+  projects: [
+    {
+      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
+      title: "Finders Keepers",
+      caption: "Full stack travel app",
+      description:
+        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+      links: [
+        {
+          link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://finders-keepers-soc.netlify.app/",
+          icon: <OpenInBrowserIcon />,
+        },
+      ],
+    },
+    {
+      image: "https://i.ibb.co/m64JKkQ/codeclub.png",
+      title: "Code Clubs",
+      caption: "Full stack class scheduling app",
+      description:
+        "As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp",
+      links: [
+        {
+          link: "https://github.com/Szfinx5/CodeClubs_SoC_ProjectWork",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://codeclubs.netlify.app/",
+          icon: <OpenInBrowserIcon />,
+        },
+      ],
+    },
+    {
+      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
+      title: "Finders Keepers",
+      caption: "Full stack travel app",
+      description:
+        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+      links: [
+        {
+          link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://finders-keepers-soc.netlify.app/",
+          icon: <OpenInBrowserIcon />,
+        },
+      ],
+    },
+    {
+      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
+      title: "Finders Keepers",
+      caption: "Full stack travel app",
+      description:
+        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+      links: [
+        {
+          link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://finders-keepers-soc.netlify.app/",
+          icon: <OpenInBrowserIcon />,
+        },
+      ],
     },
   ],
 };

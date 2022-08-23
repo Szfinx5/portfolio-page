@@ -18,9 +18,6 @@ const Experience = () => {
         </Grid>
       </Grid>
 
-      {/* Skills */}
-      <Grid container className="section padding-bottom-45"></Grid>
-
       {/* Interests */}
       <Grid container className="section padding-bottom-45 top-60">
         <Grid item className="title-styling">
