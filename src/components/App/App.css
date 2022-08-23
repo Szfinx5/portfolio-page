@@ -1,6 +1,9 @@
 :root{
-  --main-color: #ffc500;
-  --font-color: #111;
+  --yellow-color: #ffc500;
+  --blue-color: #323B4C;
+  --black-color: #111;
+  --white-color: #eee;
+  --grey-color: #777;
 }
 
 .top-60 {
@@ -41,7 +44,7 @@
 
 .main-content{
   background-color: white;
- min-height: 460px; 
+ min-height: 530px; 
  border-radius: 5px;
  margin-bottom: 30px;
  padding: 20px;
@@ -67,5 +70,5 @@
   bottom: 0;
   opacity: 0.4;
   left: 0;
-  background-color: var(--main-color);
+  background-color: var(--blue-color);
 }

@@ -1,6 +1,6 @@
 .footer{
     background-color: white;
-    color: #111;
+    color: var(--black-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -14,13 +14,13 @@
 .footer-copyright{
 font-size: small;
 text-align: end;
-color: #aaa;
+color: var(--grey-color);
 }
 
 .footer-left{
     font-size: small;
     text-align:start;
-    color: #aaa;
+    color: var(--grey-color);
     }
 
 .footer-left img{

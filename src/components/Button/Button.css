@@ -1,5 +1,5 @@
 .site-button{
-    background-color: var(--main-color) !important;
+    background-color: var(--white-color) !important;
     font-size: 14px !important;
     font-weight: 500 !important;
     border: 0 !important;
@@ -12,8 +12,8 @@
 }
 
 .button-icon-container{
-color: #000 !important;
-background: #fff !important;
+color: var(--white-color) !important;
+background: var(--blue-color) !important;
 border-radius: 50px !important;
 height: 27px  !important;
 width: 27px  !important;
@@ -30,6 +30,7 @@ font-size: 16px !important;
 }
 
 .site-button .button-text{
+color: var(--blue-color);
 font-size: 14px !important;
 text-transform: none !important;
 text-align: center !important;
