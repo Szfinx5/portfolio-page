@@ -5,22 +5,22 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 const data = {
   name: "Gabor Havasi",
   title: "Junior Software Engineer",
-  address: "Derby, East Midlands",
+  address: "\nDerby, East Midlands",
 
   social: {
     github: {
       link: "https://github.com/Szfinx5",
-      text: "Szfinx5",
+      text: "\nhttps://github.com/Szfinx5",
       icon: <GitHubIcon />,
     },
     linkedin: {
       link: "https://www.linkedin.com/in/gabor-havasi-derby/",
-      text: "gabor-havasi-derby",
+      text: "\ngabor-havasi-derby",
       icon: <LinkedInIcon />,
     },
     twitter: {
       link: "https://twitter.com/szfinx5",
-      text: "Szfinx5",
+      text: "\nhttps://twitter.com/szfinx5",
       icon: <TwitterIcon />,
     },
     skype: {

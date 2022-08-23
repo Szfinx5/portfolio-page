@@ -1,41 +1,13 @@
 import { Typography } from "@mui/material";
+import BasicTimeline, {
+  BasicTimelineSeparator,
+} from "../BasicTimeline/BasicTimeline";
 import "./Profile.css";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import data from "../../data/data";
 import { TimelineContent, TimelineItem } from "@mui/lab";
 import CustomButton from "../Button/Button";
 import GetAppIcon from "@mui/icons-material/GetApp";
-import Timeline from "@mui/lab/Timeline";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineDot from "@mui/lab/TimelineDot";
-
-const BasicTimeline = ({ title, icon, children }) => {
-  return (
-    <Timeline className={"profile-timeline"}>
-      {/* Header */}
-      <TimelineItem className={"timeline-top"}>
-        <TimelineSeparator>
-          {/* <TimelineDot className={"profile-dot-header"}>{icon}</TimelineDot> */}
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <Typography variant="h6" className={"timeline-header"}>
-            {title}
-          </Typography>
-        </TimelineContent>
-      </TimelineItem>
-      {children}
-    </Timeline>
-  );
-};
-
-const BasicTimelineSeparator = () => (
-  <TimelineSeparator className={"separator-padding"}>
-    <TimelineDot className={"profile-dot"} />
-    <TimelineConnector />
-  </TimelineSeparator>
-);
 
 const BasicTimelineItem = ({ title, text, link }) => (
   <TimelineItem>

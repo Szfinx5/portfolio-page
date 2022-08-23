@@ -4,12 +4,12 @@
 }
 
 .timeline-date{
-    color:#111
+    color: var(--black-color)
 }
 
 
 .timeline-description{
-    color: #777;
+    color: var(--grey-color);
     font-size: small !important;
     margin-top: 0px !important;
     margin-bottom: 10px !important;

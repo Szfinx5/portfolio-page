@@ -1,5 +1,5 @@
 .about-me-text{
-    color: var(--font-color);
+    color: var(--black-color);
     font-size: smaller;
     line-height: 1.6 !important;
     white-space: pre-line;
@@ -12,7 +12,7 @@
 }
 
 .interest-description{
-    color: var(--font-color);
+    color: var(--black-color);
     font-size: small !important;
     margin-top: 5px !important;
     /* margin-bottom: 16px !important; */
