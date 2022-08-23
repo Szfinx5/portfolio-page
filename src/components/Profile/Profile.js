@@ -90,11 +90,11 @@ const Profile = () => {
             text={data.social.twitter.text}
             link={data.social.twitter.link}
           />
-          {/* <BasicTimelineItem
+          <BasicTimelineItem
             title="Skype"
             text={data.social.skype.text}
             link={data.social.skype.link}
-          /> */}
+          />
         </BasicTimeline>
         <div className={"button-container"}>
           <CustomButton

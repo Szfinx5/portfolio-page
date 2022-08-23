@@ -5,6 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import HomeIcon from "@mui/icons-material/Home";
 import data from "../../data/data";
 import "./Header.css";
+import Skype from "../../img/skype.png";
 
 export default function Header(props) {
   //const pathName = props?.location?.pathName;
@@ -47,6 +48,9 @@ export default function Header(props) {
           </a>
           <a href={data.social.twitter.link} target="_blank" rel="noreferrer">
             {data.social.twitter.icon}
+          </a>
+          <a href="skype:live:gabor.havasi?chat">
+            <img src={Skype} width={20} alt="Skype" />
           </a>
         </div>
       </Navbar.Collapse>

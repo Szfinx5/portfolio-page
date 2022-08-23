@@ -24,9 +24,8 @@ const data = {
       icon: <TwitterIcon />,
     },
     skype: {
-      link: "https://twitter.com/szfinx5",
-      text: "gabor.havasi",
-      icon: <TwitterIcon />,
+      link: "skype:live:gabor.havasi?chat",
+      text: "\nlive:gabor.havasi",
     },
   },
 
