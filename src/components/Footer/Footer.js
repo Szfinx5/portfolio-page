@@ -36,23 +36,12 @@ const Footer = () => {
         <Typography className="footer-copyright">
           Developed by{" "}
           <a
-            href="https://www.linkedin.com/in/gabor-havasi-derby/"
+            href="https://github.com/Szfinx5/portfolio-page"
             target="_blank"
             rel="noreferrer"
           >
             Gabor Havasi
           </a>
-          <br />
-          Based on{" "}
-          <a
-            href="https://www.youtube.com/c/SalmanFazal01"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Salman Fazal's{" "}
-          </a>{" "}
-          online course
         </Typography>
       </div>
     </div>

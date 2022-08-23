@@ -149,10 +149,12 @@ const data = {
   projects: [
     {
       image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
+      thumbnail: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
       title: "Finders Keepers",
-      caption: "Full stack travel app",
+      caption:
+        "Full stack travel application. \nReact frontend and Serverless backend",
       description:
-        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks. \nMy main contribution to the project was setting up the serverless backend using DynamoDB, Labmda and AWS API Gateway.",
       links: [
         {
           link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
@@ -166,10 +168,12 @@ const data = {
     },
     {
       image: "https://i.ibb.co/m64JKkQ/codeclub.png",
+      thumbnail: "https://i.ibb.co/m64JKkQ/codeclub.png",
       title: "Code Clubs",
-      caption: "Full stack class scheduling app",
+      caption:
+        "Full stack class scheduling application. \nReact frontend, Node.js and Express.js backend.",
       description:
-        "As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp",
+        "As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp. \nMy main contribution was setting up the backend using Express router, creating the PostgreSQL database and hosting them",
       links: [
         {
           link: "https://github.com/Szfinx5/CodeClubs_SoC_ProjectWork",
@@ -182,35 +186,37 @@ const data = {
       ],
     },
     {
-      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
-      title: "Finders Keepers",
-      caption: "Full stack travel app",
+      image: "https://i.ibb.co/VqwYV9X/cloudresulechallenge.png",
+      thumbnail: "https://i.ibb.co/tpymw5B/cloudresumebook.png",
+      title: "The Cloud Resume Challenge",
+      caption: "Building a full stack CV on AWS using AWS SAM template",
       description:
         "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
       links: [
         {
-          link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
+          link: "https://github.com/Szfinx5/Cloud-Resume-Challenge",
           icon: <GitHubIcon />,
         },
         {
-          link: "https://finders-keepers-soc.netlify.app/",
+          link: "https://www.gabor-havasi.me",
           icon: <OpenInBrowserIcon />,
         },
       ],
     },
     {
-      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
-      title: "Finders Keepers",
-      caption: "Full stack travel app",
+      image: "https://i.ibb.co/NmCYM0w/cvpicture.jpg",
+      thumbnail: "https://i.ibb.co/JjXGhJQ/cvthumb.png",
+      title: "Portfolio site",
+      caption: "My online detailed CV written in JavaScript with React library",
       description:
-        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+        "This is my portfolio and detailed CV website. \nI have developed it in JavaScript using React and Material-UI libraries",
       links: [
         {
-          link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
+          link: "https://github.com/Szfinx5/portfolio-page",
           icon: <GitHubIcon />,
         },
         {
-          link: "https://finders-keepers-soc.netlify.app/",
+          link: "https://www.havasi.co.uk",
           icon: <OpenInBrowserIcon />,
         },
       ],
