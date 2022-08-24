@@ -9,6 +9,7 @@ import Timeline from "@mui/lab/Timeline";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineDot from "@mui/lab/TimelineDot";
+import cv from "../../data/Gabor-Havasi.pdf";
 
 const BasicTimeline = ({ title, icon, children }) => {
   return (
@@ -97,10 +98,12 @@ const Profile = () => {
           />
         </BasicTimeline>
         <div className={"button-container"}>
-          <CustomButton
-            text={"Download CV"}
-            icon={<GetAppIcon />}
-          ></CustomButton>
+          <a href={cv} download={"gabor-havasi-cv"}>
+            <CustomButton
+              text={"Download CV"}
+              icon={<GetAppIcon />}
+            ></CustomButton>
+          </a>
         </div>
       </div>
     </div>

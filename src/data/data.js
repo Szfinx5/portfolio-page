@@ -2,6 +2,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import CodewarsImage from "../img/Codewars.png";
+import CloudResuleChallengeImage from "../img/cloudresulechallenge.png";
 
 const data = {
   name: "Gabor Havasi",
@@ -164,6 +167,10 @@ const data = {
           link: "https://finders-keepers-soc.netlify.app/",
           icon: <OpenInBrowserIcon />,
         },
+        {
+          link: "https://www.youtube.com/watch?v=uD_Z4fcToQU",
+          icon: <YouTubeIcon />,
+        },
       ],
     },
     {
@@ -186,8 +193,8 @@ const data = {
       ],
     },
     {
-      image: "https://i.ibb.co/VqwYV9X/cloudresulechallenge.png",
-      thumbnail: "https://i.ibb.co/tpymw5B/cloudresumebook.png",
+      image: CloudResuleChallengeImage,
+      thumbnail: "https://i.ibb.co/B4yNrVm/cloudresumebook-3.png",
       title: "The Cloud Resume Challenge",
       caption: "Building a full stack CV on AWS using AWS SAM template",
       description:
@@ -203,9 +210,10 @@ const data = {
         },
       ],
     },
+
     {
       image: "https://i.ibb.co/NmCYM0w/cvpicture.jpg",
-      thumbnail: "https://i.ibb.co/JjXGhJQ/cvthumb.png",
+      thumbnail: "https://i.ibb.co/3rvnsQg/CVicon.jpg",
       title: "Portfolio site",
       caption: "My online detailed CV written in JavaScript with React library",
       description:
@@ -217,6 +225,30 @@ const data = {
         },
         {
           link: "https://www.havasi.co.uk",
+          icon: <OpenInBrowserIcon />,
+        },
+      ],
+    },
+
+    {
+      image: "https://www.codewars.com/users/Szfinx5/badges/large",
+      thumbnail: CodewarsImage,
+      title: "CodeWars",
+      caption:
+        "A coding practice website where I improve my problem solving skills in JavaScript and SQL",
+      description: `In my free time to keep my problem solving skills in a good shape, I am solving JavaScript and SQL katas on CodeWars.\n
+        My current level:
+        Overall: 4kyu 
+        JavaScript: 4kyu 
+        SQL: 4kyu 
+        `,
+      links: [
+        {
+          link: "https://github.com/Szfinx5/CodeWars",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://www.codewars.com/users/Szfinx5",
           icon: <OpenInBrowserIcon />,
         },
       ],

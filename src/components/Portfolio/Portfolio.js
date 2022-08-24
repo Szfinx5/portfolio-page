@@ -20,23 +20,7 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const [projectDialog, setProjectDialog] = useState(false);
 
-  // const ProjectDialog = () => (
-  //   <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
-  //     <DialogTitle open={projectDialog} onClose={() => setProjectDialog(false)}>
-  //       {projectDialog.title}
-  //     </DialogTitle>
-  //     <img src="" alt="" />
-  //     <DialogContent>{projectDialog.description}</DialogContent>
-  //     <DialogActions>
-  //       {projectDialog?.links.map((link) => (
-  //         <a href={link.link} target="_blank">
-  //           {link.icon}
-  //         </a>
-  //       ))}
-  //     </DialogActions>
-  //   </Dialog>
-  // );
-  console.log(data.projects[0].links);
+  // console.log(data.projects[0].links);
   return (
     <Grid container spacing={1} className="section padding-bottom-45">
       {/* Title */}
