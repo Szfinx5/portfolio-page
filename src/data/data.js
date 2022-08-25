@@ -152,7 +152,13 @@ const data = {
 
     {
       title: "Serverless",
-      description: ["AWS Lambda", "API Gateway", "DynamoDB"],
+      description: [
+        "AWS Lambda",
+        "API Gateway",
+        "DynamoDB",
+        "AWS S3",
+        "CloudFormation",
+      ],
     },
   ],
 
