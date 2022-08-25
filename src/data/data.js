@@ -5,6 +5,13 @@ import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import CodewarsImage from "../img/Codewars.png";
 import CloudResuleChallengeImage from "../img/cloudresulechallenge.png";
+import CloudResumeChallengeThumbnail from "../img/cloudresumebook-3.png";
+import PortfolioImage from "../img/cvpicture.JPG";
+import PortfolioThumbnail from "../img/CVicon.JPG";
+import FindersImage from "../img/screenshot.JPG";
+import FindersThumbnail from "../img/logo.png";
+import CodeClubImage from "../img/codeclub.png";
+import CodeClubThumbnail from "../img/codeclubT.png";
 
 const data = {
   name: "Gabor Havasi",
@@ -151,13 +158,13 @@ const data = {
 
   projects: [
     {
-      image: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
-      thumbnail: "https://i.ibb.co/ZW0vcMv/screen-2.jpg",
+      image: FindersImage,
+      thumbnail: FindersThumbnail,
       title: "Finders Keepers",
       caption:
         "Full stack travel application. \nReact frontend and Serverless backend",
-      description:
-        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks. \nMy main contribution to the project was setting up the serverless backend using DynamoDB, Labmda and AWS API Gateway.",
+      description: `This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks. 
+        \nMy main contribution to the project was setting up the serverless backend using DynamoDB, Labmda and AWS API Gateway.`,
       links: [
         {
           link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
@@ -174,13 +181,12 @@ const data = {
       ],
     },
     {
-      image: "https://i.ibb.co/m64JKkQ/codeclub.png",
-      thumbnail: "https://i.ibb.co/m64JKkQ/codeclub.png",
+      image: CodeClubImage,
+      thumbnail: CodeClubThumbnail,
       title: "Code Clubs",
-      caption:
-        "Full stack class scheduling application. \nReact frontend, Node.js and Express.js backend.",
-      description:
-        "As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp. \nMy main contribution was setting up the backend using Express router, creating the PostgreSQL database and hosting them",
+      caption: `Full stack class scheduling application. \nReact frontend, Node.js and Express.js backend.`,
+      description: `As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp. 
+        \nMy maininly contributed to the backend, setting it up using Express router and also creating the PostgreSQL database and hosting our codebase`,
       links: [
         {
           link: "https://github.com/Szfinx5/CodeClubs_SoC_ProjectWork",
@@ -194,11 +200,18 @@ const data = {
     },
     {
       image: CloudResuleChallengeImage,
-      thumbnail: "https://i.ibb.co/B4yNrVm/cloudresumebook-3.png",
+      thumbnail: CloudResumeChallengeThumbnail,
       title: "The Cloud Resume Challenge",
       caption: "Building a full stack CV on AWS using AWS SAM template",
-      description:
-        "This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks",
+      description: `This project is about building a full stack serverless CV on AWS.
+        During the challenge, I have used the following tech:
+          - DynamoDB
+          - Lambda function in Python
+          - REST API Gateway
+          - S3 bucket for hosting
+          - JavaScript
+          - CloudFront template for IaC
+          - Github Action for the CD/CI pipeline`,
       links: [
         {
           link: "https://github.com/Szfinx5/Cloud-Resume-Challenge",
@@ -212,8 +225,8 @@ const data = {
     },
 
     {
-      image: "https://i.ibb.co/NmCYM0w/cvpicture.jpg",
-      thumbnail: "https://i.ibb.co/3rvnsQg/CVicon.jpg",
+      image: PortfolioImage,
+      thumbnail: PortfolioThumbnail,
       title: "Portfolio site",
       caption: "My online detailed CV written in JavaScript with React library",
       description:
