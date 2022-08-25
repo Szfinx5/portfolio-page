@@ -58,7 +58,6 @@ const BasicTimelineItem = ({ title, text, link }) => (
     </TimelineContent>
   </TimelineItem>
 );
-console.log(data.social.linkedin);
 
 const Profile = () => {
   return (
