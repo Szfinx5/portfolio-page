@@ -12,6 +12,8 @@ import FindersImage from "../img/screenshot.JPG";
 import FindersThumbnail from "../img/logo.png";
 import CodeClubImage from "../img/codeclub.png";
 import CodeClubThumbnail from "../img/codeclubT.png";
+import DecredImage from "../img/decred_logo.png";
+import DecredThumbnail from "../img/decred-dcr-logo.png";
 
 const data = {
   name: "Gabor Havasi",
@@ -142,7 +144,7 @@ const data = {
 
     {
       title: "Back-end",
-      description: ["Node.js", "Express.js", "Jest"],
+      description: ["Node.js", "C#", "Express.js", "Jest"],
     },
 
     {
@@ -170,7 +172,16 @@ const data = {
       caption:
         "Full stack travel application. \nReact frontend and Serverless backend",
       description: `This is our final project from School of Code. As a team of 5, we completed this full stack travel application within 4 weeks. 
-        \nMy main contribution to the project was setting up the serverless backend using DynamoDB, Labmda and AWS API Gateway.`,
+        \nMy main contribution to the project was setting up the serverless backend using DynamoDB, Labmda and AWS API Gateway.\n
+        Tech Stack:
+        - JavaScript and Node.js
+        - React frontend
+        - DynamoDB database
+        - Lambda functions
+        - AWS API Gateway (REST API)
+        - Auth0 for authentication
+        - CORS proxy
+        `,
       links: [
         {
           link: "https://github.com/Szfinx5/FindersKeepers_SoC_FinalProject",
@@ -192,7 +203,14 @@ const data = {
       title: "Code Clubs",
       caption: `Full stack class scheduling application. \nReact frontend, Node.js and Express.js backend.`,
       description: `As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp. 
-        \nMy maininly contributed to the backend, setting it up using Express router and also creating the PostgreSQL database and hosting our codebase`,
+        \nMy maininly contributed to the backend, setting it up using Express router and also creating the PostgreSQL database and hosting our codebase on Heroku.\n
+        Tech Stack:
+          - JavaScript
+          - React frontend
+          - Node.js and Express backend
+          - PostgresSQL database
+          - Jest and Cypress testing libraries
+        `,
       links: [
         {
           link: "https://github.com/Szfinx5/CodeClubs_SoC_ProjectWork",
@@ -209,7 +227,7 @@ const data = {
       thumbnail: CloudResumeChallengeThumbnail,
       title: "The Cloud Resume Challenge",
       caption: "Building a full stack CV on AWS using AWS SAM template",
-      description: `This project is about building a full stack serverless CV on AWS.
+      description: `This project is about building a full stack serverless CV on AWS.\n
         During the challenge, I have used the following tech:
           - DynamoDB
           - Lambda function in Python
@@ -269,6 +287,25 @@ const data = {
         {
           link: "https://www.codewars.com/users/Szfinx5",
           icon: <OpenInBrowserIcon />,
+        },
+      ],
+    },
+
+    {
+      image: DecredImage,
+      thumbnail: DecredThumbnail,
+      title: "Decred (DCR)",
+      caption: "Backend application to check the voting wallets block height.",
+      description: `The Decred-Wallet-Status checker SSH into each virtual servers, issue a command to check the current block height then save those details in a MySQL database. Also, fetching the latest block height from the Decred block explorer API and compare this to the results from the hot wallets.\n
+      Tech Stack:
+        - C# 
+        - MySQL database
+        - Grafana dashboard
+      `,
+      links: [
+        {
+          link: "https://github.com/Szfinx5/Decred-Wallet-Status",
+          icon: <GitHubIcon />,
         },
       ],
     },
