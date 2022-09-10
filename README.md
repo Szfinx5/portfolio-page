@@ -31,7 +31,7 @@ For this portfolio page, I have used the following tech:
 
 ## Used materials
 
- - [React online course](https://https://www.youtube.com/c/SalmanFazal01) by Salman Fazal
+ - [React online course](https://www.youtube.com/c/SalmanFazal01) by Salman Fazal
 - [Material UI online course](https://www.youtube.com/watch?v=0KEpWHtG10M&list=PL4cUxeGkcC9gjxLvV4VEkZ6H6H4yWuS58) by The Net Ninja
 - [Material UI](https://mui.com/) documentation
 
