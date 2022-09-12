@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://i.ibb.co/3rvnsQg/CVicon.jpg" alt="logo" width="200"/>
+    <img src="https://i.ibb.co/3rvnsQg/CVicon.jpg" alt="logo" width="200"/>       
 
 <h1 align="center">Portfolio page</h1>
 
