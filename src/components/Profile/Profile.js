@@ -9,7 +9,7 @@ import Timeline from "@mui/lab/Timeline";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineDot from "@mui/lab/TimelineDot";
-import cv from "../../data/gabor-havasi-cv.pdf";
+import cv from "../../data/Gabor-Havasi-CV.pdf";
 
 const BasicTimeline = ({ title, icon, children }) => {
   return (
