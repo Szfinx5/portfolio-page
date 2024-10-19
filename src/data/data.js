@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import EmailIcon from "@mui/icons-material/Email";
 import CodewarsImage from "../img/Codewars.png";
 import CloudResuleChallengeImage from "../img/cloudresulechallenge.png";
 import CloudResumeChallengeThumbnail from "../img/cloudresumebook-3.png";
@@ -21,6 +22,11 @@ const data = {
   address: "\nDerby, East Midlands",
 
   social: {
+    email: {
+      link: `mailto:gabor.havasi@gmail.com`,
+      text: "\ngabor.havasi@gmail.com",
+      icon: <EmailIcon />,
+    },
     github: {
       link: "https://github.com/Szfinx5",
       text: "\nhttps://github.com/Szfinx5",
@@ -42,26 +48,40 @@ const data = {
     },
   },
 
-  about: `A focused, analytical and a problem solver who has been working in the IT industry since 2015. Started off in the helpdesk of RBS then moved into a software company providing CCTV monitoring solutions called Initsys as a Customer Experience Manager - the middle man between the software developers and nontechnical customers to achieve the maximum capability of the product being offered.\n
-  Currently I am a Full Stack Developer for Cromwell Tools Ltd, developing their e-commerce platform using mainly Next.js and Material UI on the frontend, Node.js, Postgress and DynamoDB on the backend backed by AWS API Gateways, Cognito identity platform.\n
-  I am thoroughly enjoying my work, I always ready to learn, progress and develop while utilising skills I have already gained from previous experiences.\n
-  Computer Science degree educated from Hungary and moved to the UK in 2006.`,
+  // about: `A focused, analytical and a problem solver who has been working in the IT industry since 2015. Started off in the helpdesk of RBS then moved into a software company providing CCTV monitoring solutions called Initsys as a Customer Experience Manager - the middle man between the software developers and nontechnical customers to achieve the maximum capability of the product being offered.\n
+  // Currently I am a Full Stack Developer for Cromwell Tools Ltd, developing their e-commerce platform using mainly Next.js and Material UI on the frontend, Node.js, Postgress and DynamoDB on the backend backed by AWS API Gateways, Cognito identity platform.\n
+  // I am thoroughly enjoying my work, I always ready to learn, progress and develop while utilising skills I have already gained from previous experiences.\n
+  // Computer Science degree educated from Hungary and moved to the UK in 2006.`,
+  about: `I’m a focused and analytical problem solver with experience in the IT industry since 2015. I started my career on the helpdesk at RBS before joining Initsys, a software company providing CCTV monitoring solutions, as a Customer Experience Manager. In that role, I worked closely with both developers and non-technical customers to ensure the product was used to its full potential.\n
+Currently, I’m a Full Stack Developer at Cromwell Tools Ltd, where I help develop their e-commerce platform. I mainly work with Next.js and Material UI on the frontend, and Node.js, PostgreSQL, and DynamoDB on the backend, leveraging AWS services like API Gateway and Cognito.\n
+I love what I do, and I’m always eager to learn, improve, and build on the skills I’ve gained throughout my career.
 
+Originally from Hungary, I hold a degree in Computer Science and have been living in the UK since 2006.`,
   interests: [
     {
       name: "Learning",
-      description:
-        "In my free time, I like learning new technical skills, anything from programming languages to computer networking",
+      // description:
+      //   "In my free time, I like learning new technical skills, anything from programming languages to computer networking",
+      description: `Enjoy exploring new skills in programming, computer networking, and staying up-to-date with emerging technologies.`,
     },
     {
       name: "DIY",
+      // description:
+      //   "I am happy to plan and build something new, such as garden offices during the pandemic to increase our comfort while working from home",
       description:
-        "I am happy to plan and build something new, such as garden offices during the pandemic to increase our comfort while working from home",
+        "Enjoy planning and building projects from scratch. Recently, I designed and built garden offices, significantly improving productivity and efficiency for remote work.",
+    },
+    {
+      name: "Personal finances",
+      // description:
+      //   "I am always on top of our family finances, I like to have a review of our cashflow and investments on a monthly basis.",
+      description:
+        "I keep a close eye on my family's finances, reviewing our cash flow and investments on a monthly basis.",
     },
     {
       name: "Personal finances",
       description:
-        "I am always on top of our family finances, I like to have a review of our cashflow and investments on a monthly basis.",
+        "Actively practicing karate, which helps me develop discipline, focus, and perseverance.",
     },
   ],
   schools: [
@@ -88,33 +108,34 @@ const data = {
       date: "2022 - present",
       title: "Full Stack Web Developer",
       description: [
-        "Maintain and optimise existing codebase and developed new features to Cromwell's e-commerce platform using React/Next.js, Node.js, Redux and Material UI.",
-        "Build RESTfull APIs and create backend logic to support frontend functions using Node.js and SQL on the AWS platform as Lambda functions mostly relying on AWS API Gateways, AWS Cognito, Postgress and DynamoDB.",
-        "Write new test suites and update existing ones to provide a better coverage for our frontend using React Texting Library.",
+        "Maintain and optimize a large-scale e-commerce codebase, developing new features using React, Next.js, Node.js, Redux, and Material UI to enhance user experience and drive performance improvements.",
+        "Build and maintain RESTful APIs and backend logic to support dynamic frontend operations, primarily using Node.js and SQL on the AWS platform (Lambda functions, AWS API Gateway, Cognito, PostgreSQL, DynamoDB).",
+        "Create new test suites and improve existing ones to ensure better test coverage for frontend components, utilizing React Testing Library and Jest.",
+        "Contribute to the implementation and integration of Constructor Search, an AI-driven search engine, collaborating with a cross-functional team to enhance search functionality on Cromwell’s e-commerce platforms and improve user search experience.",
       ],
     },
     {
       name: "School of Code, Remote",
       date: "2022",
-      title: "Full Stack Web Developer",
+      title: "Trainee Full Stack Web Developer",
       description: [
-        "Learning agile and test-driven web development practices and languages",
-        "Breaking down technical and logical problems and solving them",
-        "Developing solutions in teams or pair-programming environments mainly in JavaScript and SQL, using Node.JS runtime environment and React, Express libraries",
-        "Learning Cloud computing practices mainly on AWS and deploying solutions",
-        "Creating and deploying Serverless backends using Lambda functions, API Gateways, and DynamoDB",
+        "Developed solutions in team-based and pair-programming environments, primarily using JavaScript, SQL, Node.js, React, and Express.",
+        "Gained experience in cloud computing with a focus on AWS, deploying applications and services.",
+        "Built and deployed serverless backends using AWS Lambda, API Gateway, and DynamoDB.",
+        "Learned agile and test-driven development practices, focusing on modern web development languages and frameworks.",
+        "Analyzed and solved technical problems by breaking them down into manageable tasks.",
       ],
     },
     {
       name: "Initsys Ltd, Derby",
       date: "2017 - 2022",
-      title: "Customer Experience Manager",
+      title: "IT Customer Experience Manager",
       description: [
-        "Collate and analyse customer data, queries, and IT ticket-related issues and provide solutions to the problems",
-        "Manage customers databases, provide tools and MySQL queries for reporting",
-        "First point of contact when it comes to testing Initsys software and providing feedback to the developers together with recommendations",
-        "Updating customers' IT systems on-site or remotely",
-        "Deliver internal and external training for new and existing FTSE100 and SME customers either face to face or online",
+        "Collected and analyzed customer data, queries, and IT tickets to diagnose and resolve issues promptly.",
+        "Managed customer databases and generated reports using MySQL queries and custom tools for data insights.",
+        "Acted as the primary contact for testing Initsys software, providing developers with detailed feedback and recommendations for product improvements.",
+        "Updated customers’ IT systems both on-site and remotely to ensure optimal performance.",
+        "Delivered training sessions for new and existing clients, including FTSE100 and SME companies, either in person or via online platforms.",
       ],
     },
     {
@@ -122,28 +143,28 @@ const data = {
       date: "2015 - 2017",
       title: "IT service Desk Analyst",
       description: [
-        "Continuously delivering great customer service in line with the bank People Standard",
-        "Efficiently providing remote support on Windows operating system and virtualised environments to achieve the required First Point of Contact resolution SLA",
-        "Answering colleague calls/emails, logging incidents appropriately, and capturing accurate information",
-        "Effectively managing time to achieve agreed SLAs",
+        "Consistently delivered high-quality customer service in line with the bank’s standards.",
+        "Provided efficient remote support for Windows operating systems and virtualized environments, ensuring a high rate of First Point of Contact (FPOC) resolution and meeting SLAs.",
+        "Handled colleague calls and emails, accurately logging incidents and capturing detailed information for troubleshooting.",
+        "Managed time effectively to meet service level agreements, balancing multiple support tasks in a fast-paced environment.",
       ],
     },
   ],
 
   certifications: [
     {
+      name: "Cisco Certified Network Administrator",
+      date: "2013 - 2027",
+      description: "CCNA",
+    },
+    {
       name: "AWS Certified Cloud Practitioner",
       date: "2022 - 2025",
       description: "AWS CCP",
     },
     {
-      name: "Cisco Certified Network Administrator",
-      date: "2013 - 2025",
-      description: "CCNA",
-    },
-    {
       name: "Responsive Web Design",
-      date: "2022 - 2025",
+      date: "2022",
       description: "freeCodeCamp",
     },
   ],
@@ -151,12 +172,23 @@ const data = {
   skills: [
     {
       title: "Front-end",
-      description: ["React", "JavaScript", "Material UI", "React Testing Library"],
+      description: [
+        "React/Next.JS",
+        "JavaScript",
+        "Material UI",
+        "React Testing Library",
+      ],
     },
 
     {
       title: "Back-end",
-      description: ["Node.js", "Express.js", "Jest"],
+      description: [
+        "Node.js",
+        "Express.js",
+        "Jest",
+        "LaunchDarkly",
+        "Constructor Search",
+      ],
     },
 
     {

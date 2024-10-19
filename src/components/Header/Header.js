@@ -40,8 +40,8 @@ export default function Header(props) {
         </Nav>
 
         <div className="header-right">
-          <a href={data.social.github.link} target="_blank" rel="noreferrer">
-            {data.social.github.icon}
+          <a href={data.social.email.link} target="_blank" rel="noreferrer">
+            {data.social.email.icon}
           </a>
           <a href={data.social.linkedin.link} target="_blank" rel="noreferrer">
             {data.social.linkedin.icon}

@@ -36,7 +36,7 @@ const Footer = () => {
         <Typography className="footer-copyright">
           Developed by{" "}
           <a
-            href="https://github.com/Szfinx5/portfolio-page"
+            href="https://www.linkedin.com/in/gabor-havasi-derby/"
             target="_blank"
             rel="noreferrer"
           >

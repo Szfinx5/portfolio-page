@@ -106,9 +106,7 @@ const Portfolio = () => {
       <Grid container className="section padding-bottom-45 top-60">
         <Grid item className="title-styling margin-bottom-30">
           <span></span>
-          <h6 className="title-styling-text">
-            Technology I used for the projects
-          </h6>
+          <h6 className="title-styling-text">My everyday development stack</h6>
         </Grid>
         <Grid
           container
