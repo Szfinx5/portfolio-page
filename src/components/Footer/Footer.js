@@ -6,12 +6,36 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-left">
         <Typography className="footer-name"></Typography>
+
         <a
-          href="https://schoolofcode.co.uk/course"
+          href="https://www.credly.com/badges/f32a5613-97c9-4558-a007-ade6545908cd"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={require("../../img/soc-logo.png")} alt="School of Code" />
+          <img
+            src={require("../../img/aws-ml.png")}
+            alt="AWS Machine Learning"
+          />
+        </a>
+        <a
+          href="http://www.credly.com/badges/f6fb3fca-f9c4-4858-9850-fed6243df068"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../img/aws-ccp.png")}
+            alt="AWS Cloud Practitioner"
+          />
+        </a>
+        <a
+          href="https://www.credly.com/badges/eb75b466-a638-42a8-92e4-e998733f9666/public_url"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={require("../../img/pfne.png")}
+            alt="Programming for Network Engineers"
+          />
         </a>
         <a
           href="http://www.credly.com/badges/6456dc32-627e-4ef1-ae67-e92be39e4c05"
@@ -23,13 +47,6 @@ const Footer = () => {
             src={require("../../img/ccna.png")}
             alt="CCNA badge"
           />
-        </a>
-        <a
-          href="http://www.credly.com/badges/f6fb3fca-f9c4-4858-9850-fed6243df068"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={require("../../img/aws-ccp.png")} alt="AWS badge" />
         </a>
       </div>
       <div className="footer-right">
