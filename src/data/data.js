@@ -11,10 +11,10 @@ import PortfolioImage from "../img/cvpicture.JPG";
 import PortfolioThumbnail from "../img/CVicon.JPG";
 import FindersImage from "../img/screenshot.JPG";
 import FindersThumbnail from "../img/logo.png";
-import CodeClubImage from "../img/codeclub.png";
-import CodeClubThumbnail from "../img/codeclubT.png";
 import DecredImage from "../img/decred_logo.png";
 import DecredThumbnail from "../img/decred-dcr-logo.png";
+import TasteTrend from "../img/tastetrend.png";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const data = {
   name: "Gabor Havasi",
@@ -42,9 +42,10 @@ const data = {
       text: "\nhttps://twitter.com/szfinx5",
       icon: <TwitterIcon />,
     },
-    skype: {
-      link: "skype:live:gabor.havasi?chat",
-      text: "\nlive:gabor.havasi",
+    whatsapp: {
+      link: `https://wa.me/${process.env.REACT_APP_WHATSAPP_NUMBER}`,
+      text: `\n${process.env.REACT_APP_WHATSAPP_NUMBER}`,
+      icon: <WhatsAppIcon />,
     },
   },
 
@@ -53,8 +54,8 @@ const data = {
   // I am thoroughly enjoying my work, I always ready to learn, progress and develop while utilising skills I have already gained from previous experiences.\n
   // Computer Science degree educated from Hungary and moved to the UK in 2006.`,
   about: `I’m a focused and analytical problem solver with experience in the IT industry since 2015. I started my career on the helpdesk at RBS before joining Initsys, a software company providing CCTV monitoring solutions, as a Customer Experience Manager. In that role, I worked closely with both developers and non-technical customers to ensure the product was used to its full potential.\n
-Currently, I’m a Full Stack Developer at Cromwell Tools Ltd, where I help develop their e-commerce platform. I mainly work with Next.js and Material UI on the frontend, and Node.js, PostgreSQL, and DynamoDB on the backend, leveraging AWS services like API Gateway and Cognito.\n
-I love what I do, and I’m always eager to learn, improve, and build on the skills I’ve gained throughout my career.
+Currently, I’m a Full Stack Developer at Bloc Digital, where I help develop BlocHub, a large scale SaaS platform. I mainly work with Next.js, TypeScript and SCSS on the frontend, Node.js, PostgreSQL and MongoDB on the backend, leveraging Docker for deployment.\n
+I’m passionate about learning and growth, always eager to develop new skills while applying my existing knowledge.
 
 Originally from Hungary, I hold a degree in Computer Science and have been living in the UK since 2006.`,
   interests: [
@@ -62,7 +63,7 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
       name: "Learning",
       // description:
       //   "In my free time, I like learning new technical skills, anything from programming languages to computer networking",
-      description: `Enjoy exploring new skills in programming, computer networking, and staying up-to-date with emerging technologies.`,
+      description: `I enjoy exploring programming, especially cloud-native development and machine learning, while staying current with emerging technologies`,
     },
     {
       name: "DIY",
@@ -79,7 +80,7 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
         "I keep a close eye on my family's finances, reviewing our cash flow and investments on a monthly basis.",
     },
     {
-      name: "Personal finances",
+      name: "Martial arts",
       description:
         "Actively practicing karate, which helps me develop discipline, focus, and perseverance.",
     },
@@ -104,8 +105,18 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
 
   work: [
     {
+      name: "Bloc Digital, on-site",
+      date: "2025 - present",
+      title: "Full Stack Web Developer",
+      description: [
+        "Maintain and optimize a large-scale SaaS codebase.",
+        "Develop new features using Next.js, TypeScript, SCSS, Node.js, PostgreSQL, and MongoDB to enhance user experience and drive performance improvements.",
+        "Build and maintain RESTful APIs and backend logic to support dynamic frontend operations, primarily using Node.js and MongoDB on Docker-based deployments.",
+      ],
+    },
+    {
       name: "Cromwell Tools Ltd, Hybrid",
-      date: "2022 - present",
+      date: "2022 - 2025",
       title: "Full Stack Web Developer",
       description: [
         "Maintain and optimize a large-scale e-commerce codebase, developing new features using React, Next.js, Node.js, Redux, and Material UI to enhance user experience and drive performance improvements.",
@@ -153,13 +164,18 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
 
   certifications: [
     {
+      name: "AWS Certified Machine Learning Engineer",
+      date: "2025 - 2028",
+      description: "AWS ML-Eng",
+    },
+    {
       name: "Cisco Certified Network Administrator",
       date: "2013 - 2027",
       description: "CCNA",
     },
     {
       name: "AWS Certified Cloud Practitioner",
-      date: "2022 - 2025",
+      date: "2022 - 2028",
       description: "AWS CCP",
     },
     {
@@ -199,6 +215,7 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
     {
       title: "Serverless",
       description: [
+        "Terraform",
         "AWS Lambda",
         "API Gateway",
         "DynamoDB",
@@ -209,6 +226,29 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
   ],
 
   projects: [
+    {
+      image: TasteTrend,
+      thumbnail: TasteTrend,
+      title: "TasteTrend Chat Service",
+      caption: `Full stack cloud native ML application. \nReact frontend, AWS cloud native backend written in TypeScript.`,
+      description: `The TasteTrend chat service is an online tool that lets you ask questions about your restaurant network’s customer reviews and get instant,
+      AI-generated answers.\name It helps you quickly understand what customers are saying about your restaurants.\n
+        Tech Stack:
+          - TypeScript
+          - AWS Bedrock
+          - AWS Lambdas
+          - S3 Buckets
+          - AWS OpenSearch
+          - API Gateway
+          - Next.js
+        `,
+      links: [
+        {
+          link: "https://github.com/Szfinx5/TasteTrend",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
     {
       image: FindersImage,
       thumbnail: FindersThumbnail,
@@ -238,31 +278,6 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
         {
           link: "https://www.youtube.com/watch?v=uD_Z4fcToQU",
           icon: <YouTubeIcon />,
-        },
-      ],
-    },
-    {
-      image: CodeClubImage,
-      thumbnail: CodeClubThumbnail,
-      title: "Code Clubs",
-      caption: `Full stack class scheduling application. \nReact frontend, Node.js and Express.js backend.`,
-      description: `As a team of 4, we created this class scheduling application within a week, just 2 months into our bootcamp. 
-        \nMy maininly contributed to the backend, setting it up using Express router and also creating the PostgreSQL database and hosting our codebase on Heroku.\n
-        Tech Stack:
-          - JavaScript
-          - React frontend
-          - Node.js and Express backend
-          - PostgresSQL database
-          - Jest and Cypress testing libraries
-        `,
-      links: [
-        {
-          link: "https://github.com/Szfinx5/CodeClubs_SoC_ProjectWork",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://codeclubs.netlify.app/",
-          icon: <OpenInBrowserIcon />,
         },
       ],
     },

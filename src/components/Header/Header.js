@@ -1,15 +1,11 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavLink } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import HomeIcon from "@mui/icons-material/Home";
 import data from "../../data/data";
 import "./Header.css";
-import Skype from "../../img/skype.png";
 
 export default function Header(props) {
-  //const pathName = props?.location?.pathName;
-
   return (
     <Navbar expand="lg" sticky="top" className="header">
       <Nav.Link as={NavLink} to="/">
@@ -46,11 +42,13 @@ export default function Header(props) {
           <a href={data.social.linkedin.link} target="_blank" rel="noreferrer">
             {data.social.linkedin.icon}
           </a>
-          <a href={data.social.twitter.link} target="_blank" rel="noreferrer">
-            {data.social.twitter.icon}
-          </a>
-          <a href="skype:live:gabor.havasi?chat">
-            <img src={Skype} width={20} alt="Skype" />
+          <a
+            href={`https://wa.me/${process.env.REACT_APP_WHATSAPP_NUMBER}`}
+            target="_blank"
+            rel="noreferrer"
+            title="WhatsApp"
+          >
+            {data.social.whatsapp.icon}
           </a>
         </div>
       </Navbar.Collapse>

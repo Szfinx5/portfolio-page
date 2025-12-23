@@ -86,14 +86,9 @@ const Profile = () => {
             link={data.social.linkedin.link}
           />
           <BasicTimelineItem
-            title="Twitter"
-            text={data.social.twitter.text}
-            link={data.social.twitter.link}
-          />
-          <BasicTimelineItem
-            title="Skype"
-            text={data.social.skype.text}
-            link={data.social.skype.link}
+            title="WhatsApp"
+            text={`\nSend me a message`}
+            link={data.social.whatsapp.link}
           />
         </BasicTimeline>
         <div className={"button-container"}>
