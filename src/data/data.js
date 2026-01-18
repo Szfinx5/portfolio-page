@@ -164,8 +164,13 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
 
   certifications: [
     {
+      name: "AWS Certified Developer",
+      date: "2026 - 2029",
+      description: "AWS Dev",
+    },
+    {
       name: "AWS Certified Machine Learning Engineer",
-      date: "2025 - 2028",
+      date: "2025 - 2029",
       description: "AWS ML-Eng",
     },
     {
@@ -175,7 +180,7 @@ Originally from Hungary, I hold a degree in Computer Science and have been livin
     },
     {
       name: "AWS Certified Cloud Practitioner",
-      date: "2022 - 2028",
+      date: "2022 - 2029",
       description: "AWS CCP",
     },
     {

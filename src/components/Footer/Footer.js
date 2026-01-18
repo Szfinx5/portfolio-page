@@ -8,6 +8,13 @@ const Footer = () => {
         <Typography className="footer-name"></Typography>
 
         <a
+          href="https://www.credly.com/badges/8cbb0dce-e29b-4545-b45f-810f1ffcc929/public_url"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={require("../../img/aws-dev.png")} alt="AWS Developer" />
+        </a>
+        <a
           href="https://www.credly.com/badges/f32a5613-97c9-4558-a007-ade6545908cd"
           target="_blank"
           rel="noreferrer"
